@@ -13,7 +13,7 @@ stage("Test") {
                sh 'mvn test'
             }
         }
-		stage("Package") {
+stage("Package") {
          
             steps {
                sh 'mvn package'
